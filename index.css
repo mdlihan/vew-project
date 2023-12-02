@@ -1,0 +1,64 @@
+header{
+    background-image: url(school.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.bg{
+    background-color: rgba(0,0,0,0.3);
+}
+.kg{
+    transition: .3s;
+    border-radius: 10px;
+}
+
+.kg:hover{
+    background-color: #427D9D;
+}
+section{
+    text-align: center;
+    margin-top: 11rem;
+}
+.color{
+    background-color: rgb(184, 164, 138);
+    padding: 0px 6px;
+}
+h1{
+        background-color: rgb(1, 116, 190,0.6);
+        font-size: 3.2rem;
+        width: 360px;
+        margin: 0 auto;
+        border-radius: 5px;
+        font-family:cursive;
+}
+.all{
+    border: 2px solid #3D30A2;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 90%;
+    transition: .3s;
+}
+.all:hover{
+    transform:scale(1.1);
+    box-shadow: 0px 7px 7px rgb(34, 34, 34);
+    cursor: pointer;
+}
+.m{
+    padding: 1rem;
+}
+.hr{
+    border: 5px dotted white;
+    border-bottom: none;
+    width: 50px;
+}
+.full{
+    transition: .4s;
+
+}
+.full:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 4px 4px black;
+    cursor: pointer;
+}
